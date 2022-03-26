@@ -1,0 +1,28 @@
+@use "global" as *;
+.pagenation {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.pagenation li {
+  display: inline-block;
+}
+
+.pagenation li a {
+  color: black;
+  float: left;
+  padding: 2px 4px;
+  text-decoration: none;
+  border: solid 1px #111;
+}
+
+.pagenation li a.active {
+  background-color: #f00;
+  color: white;
+}
+
+.pagenation li a:hover:not(.active) {
+  background-color: #f00;
+  color: #fff;
+}

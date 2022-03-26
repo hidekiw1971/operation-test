@@ -6,7 +6,9 @@
 
 ## 概要
 
-- ｘｘｘ
+- css のみでページネーションを実装(現在のページをハイライト表示。各ページのリンクの上をホバー時、色を変更する。)
+- 現在のページをハイライト表示する。(.active クラス)
+- 各ページのリンクの上をホバー時、色を変更する。
 
 ## 仕様
 
@@ -22,7 +24,7 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> pagenation をコピペ。
 
 ## w3c html チェック結果
 
@@ -38,11 +40,16 @@
 
 ## 参考にしたサイト
 
-- xxx
+- アクティブおよび Hoverable ページネーション
+- http://www.w3bai.com/ja/css/css3_pagination.html
+- 【レスポンシブ対応】おしゃれなページャーを CSS だけで作る！コピペ出来るデザインサンプル
+- https://nakox.jp/web/wordpress/wp_pager_css
+- 【CSS】display の使い方を総まとめ！inline や block の違いは？
+- https://saruwakakun.com/html-css/basic/display
 
 ## 更新履歴
 
-- 2022/mm/dd 初版 作成完了
+- 2022/3/26 初版 作成完了（css のみでページネーションを実装(現在のページをハイライト表示。各ページのリンクの上をホバー時、色を変更する。)）
 
 ## 環境・使い方
 
