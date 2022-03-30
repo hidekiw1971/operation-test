@@ -1,0 +1,15 @@
+@use "global" as *;
+.card {
+  display: inline-block;
+  max-width: rem(374);
+  width: 100%;
+  height: rem(526);
+  background-color: #000;
+  color: #fff;
+  // position親要素
+  position: relative;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
