@@ -6,7 +6,7 @@
 
 ## 概要
 
-- c-card-010
+- c-card-010（カード（画像（擬似要素）、タイトル、説明））
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
