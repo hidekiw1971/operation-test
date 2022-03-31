@@ -6,7 +6,7 @@
 
 ## 概要
 
-- ｘｘｘ
+- パンくずリスト
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
@@ -23,7 +23,7 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> breadcrumb をコピペ。
 
 ## w3c html チェック結果
 
@@ -36,15 +36,20 @@
 ## portfolio url:
 
 - https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://css-md-0004.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- パンくずリストの作り方
+- https://csshtml.work/breadcrumb/
+- white-space
+- https://developer.mozilla.org/ja/docs/Web/CSS/white-space
+- CSS の white-space の使い方：pre、wrap、nowrap などの違いは？
+- https://saruwakakun.com/html-css/basic/white-space
 
 ## 更新履歴
 
-- 2022/mm/dd 初版 作成完了
+- 2022/3/31 初版 作成完了(パンくずリスト)
 
 ## 環境・使い方
 
