@@ -1,0 +1,9 @@
+@use "global" as *;
+.card__contents {
+  position: absolute;
+  bottom: 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
