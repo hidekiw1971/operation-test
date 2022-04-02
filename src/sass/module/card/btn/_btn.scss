@@ -1,0 +1,15 @@
+@use "global" as *;
+.btn {
+  display: inline-block;
+  max-width: rem(335);
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding-top: rem(10);
+  padding-bottom: rem(11);
+  border: 1px solid #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

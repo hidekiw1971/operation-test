@@ -1,0 +1,12 @@
+@use "global" as *;
+.card__content--title {
+  font-family: "Noto Sans JP";
+  font-weight: $normal;
+  font-size: rem(20);
+  letter-spacing: rem(2);
+  line-height: 1.5;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
