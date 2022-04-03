@@ -1,5 +1,5 @@
 @use "global" as *;
-.xxx {
+.card__inner {
   @include mq(md) {
   }
   @include mq(xl) {
