@@ -1,0 +1,34 @@
+@use "global" as *;
+.overview__title {
+  display: inline-block;
+  color: #fff;
+  font-family: "font-family: 'Noto Serif JP', serif;";
+  font-size: rem(20);
+  font-weight: $normal;
+  padding-top: rem(120);
+  padding-right: rem(0);
+  padding-bottom: rem(48);
+  padding-left: rem(0);
+  position: relative;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.overview__title::before {
+  display: inline-block;
+  content: "Overview";
+  font-family: "font-family: 'Noto Serif JP', serif;";
+  font-size: rem(50);
+  font-weight: $normal;
+  color: #f9f871;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
