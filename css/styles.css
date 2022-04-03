@@ -174,6 +174,9 @@ select::-ms-expand {
 }
 
 .card__content--inner {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
   padding-left: 20px;
   padding-left: 1.25rem;
   padding-right: 20px;
@@ -183,6 +186,18 @@ select::-ms-expand {
   padding-bottom: 21px;
   padding-bottom: 1.3125rem;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .card__content--inner {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    padding-left: 5.625rem;
+    padding-right: 50%;
+    padding-top: 7.4375rem;
+    padding-bottom: 7.4375rem;
+  }
 }
 .card__content--text {
   font-family: "Noto Sans JP";
@@ -196,6 +211,14 @@ select::-ms-expand {
   padding-bottom: 1rem;
   text-align: left;
 }
+@media screen and (min-width: 768px) {
+  .card__content--text {
+    font-size: 1rem;
+    letter-spacing: 0.03125rem;
+    line-height: 1;
+    padding-bottom: 3rem;
+  }
+}
 .card__content--title {
   font-family: "Noto Sans JP";
   font-weight: 400;
@@ -206,6 +229,25 @@ select::-ms-expand {
   line-height: 1.5;
   padding-bottom: 24px;
   padding-bottom: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .card__content--title {
+    font-size: 1.5625rem;
+    letter-spacing: 0.03125rem;
+    line-height: 1;
+    padding-bottom: 3rem;
+  }
+}
+.card__content {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.card__contents--inner {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .card__contents--photo {
   display: inline-block;
@@ -220,6 +262,10 @@ select::-ms-expand {
   .card__contents--photo {
     max-width: 34.8125rem;
     width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(110%, -50%);
+            transform: translate(110%, -50%);
   }
 }
 .card__contents--photo::before {
@@ -231,13 +277,23 @@ select::-ms-expand {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.card__contents {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.card__inner {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+}
 .card {
   display: inline-block;
   max-width: 375px;
   max-width: 23.4375rem;
   width: 100%;
-  background-color: #333;
-  color: #fff;
 }
 @media screen and (min-width: 768px) {
   .card {

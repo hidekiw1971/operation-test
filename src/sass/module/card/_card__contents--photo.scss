@@ -9,6 +9,9 @@
   @include mq(md) {
     max-width: rem(557);
     width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(110%, -50%);
   }
   @include mq(xl) {
   }
