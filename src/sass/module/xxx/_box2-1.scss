@@ -1,0 +1,9 @@
+@use "global" as *;
+.box2-1 {
+  width: rem(400);
+  height: rem(300);
+  background-color: #f00;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
