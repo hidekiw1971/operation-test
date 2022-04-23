@@ -4,4 +4,9 @@
   width: rem(600);
   height: rem(400);
   background-color: #faa;
+  position: relative;
+}
+
+.box1-1 > div {
+  // position: relative;
 }

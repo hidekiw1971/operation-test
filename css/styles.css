@@ -180,6 +180,7 @@ select::-ms-expand {
   height: 400px;
   height: 25rem;
   background-color: #faa;
+  position: relative;
 }
 
 .box2-1 {
@@ -188,15 +189,7 @@ select::-ms-expand {
   height: 300px;
   height: 18.75rem;
   background-color: #f00;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  bottom: 0;
 }
 
 .box3-1 {
@@ -205,5 +198,7 @@ select::-ms-expand {
   height: 100px;
   height: 6.25rem;
   background-color: #00f;
+  position: absolute;
+  bottom: 0;
 }
 /*# sourceMappingURL=styles.css.map */
